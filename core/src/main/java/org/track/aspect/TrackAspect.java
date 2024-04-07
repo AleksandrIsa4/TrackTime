@@ -10,6 +10,7 @@ import org.track.model.Status;
 import org.track.service.TimeTrackingService;
 
 import java.time.LocalDateTime;
+import java.util.concurrent.CompletableFuture;
 
 @Aspect
 @Component
@@ -34,16 +35,17 @@ public class TrackAspect {
         try {
             Long startTime = System.currentTimeMillis();
             result = proceedingJoinPoint.proceed();
-            log.info("aroundTrackTime class  {}  name  {} threat  {}", proceedingJoinPoint.getSignature().getDeclaringTypeName(), proceedingJoinPoint.getSignature().getName(), Thread.currentThread().getName());
             Long endTime = System.currentTimeMillis();
             timeTracking.setTime(endTime - startTime);
             timeTracking.setStatus(Status.DONE);
         } catch (Throwable throwable) {
             timeTracking.setStatus(Status.ERROR);
-            log.error("aroundTrackTime throwable  {} threat  {}", throwable.getMessage(), Thread.currentThread().getName());
+            log.error("Произошла ошибка при вызове метода: {}", proceedingJoinPoint.getSignature().getName());
+            log.error("Ошибка: {}", throwable.getMessage());
             result = throwable;
         } finally {
-            timeTrackingService.saveTimeTracking(timeTracking);
+            CompletableFuture.runAsync(() ->
+            timeTrackingService.saveTimeTracking(timeTracking));
         }
         return result;
     }

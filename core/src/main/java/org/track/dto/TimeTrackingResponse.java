@@ -23,7 +23,9 @@ public class TimeTrackingResponse {
     @Schema(description = "время выполнения метода, мс")
     Long time;
 
+    @Schema(description = "Статус выполнения метода")
     Status status;
 
+    @Schema(description = "Время начала выполнения метода")
     LocalDateTime dateTime;
 }
