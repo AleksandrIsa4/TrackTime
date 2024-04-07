@@ -1,0 +1,16 @@
+#Sun Apr 07 20:57:46 MSK 2024
+configuration*?=83A3399A97308FD787EF0D7A445C6DFFB6915B24
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\dto\\TimeTrackingResponse.java=1712415534974
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\entity\\TimeTracking.java=1712512591080
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\annotation\\TrackTime.java=1711715213945
+module-resource*?\:suppressions.xml=AF2D3E620D3C65A14EDA4B1F32DD318FEEF405BC
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\model\\TypeSearch.java=1711908961747
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\service\\TimeTrackingService.java=1711910701375
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\exceptions\\ExceptionsHandler.java=1712504883122
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\exceptions\\model\\ApiError.java=1711890320533
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\repository\\TimeTrackingRepository.java=1712416518549
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\mapper\\TimeTrackingMapper.java=1712512591061
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\model\\Status.java=1712415370391
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\exceptions\\DataNotFoundException.java=1711890320459
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\exceptions\\BadRequestException.java=1711890320406
+E\:\\PROECTI\\TrackTime\\core\\src\\main\\java\\org\\track\\annotation\\TrackAsyncTime.java=1712398371192

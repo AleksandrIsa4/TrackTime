@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.3">
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\annotation\TrackAsyncTime.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\annotation\TrackTime.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\aspect\TrackAspect.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\aspect\TrackAsyncAspect.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\controller\TrackTimeController.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\dto\TimeTrackingResponse.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\entity\TimeTracking.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\exceptions\BadRequestException.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\exceptions\DataNotFoundException.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\exceptions\ExceptionsHandler.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\exceptions\model\ApiError.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\mapper\TimeTrackingMapper.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\model\Status.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\model\TypeSearch.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\repository\TimeTrackingRepository.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\service\TimeTrackingService.java">
+</file>
+<file name="E:\PROECTI\TrackTime\core\src\main\java\org\track\service\TimeTrackingServiceImpl.java">
+</file>
+</checkstyle>
